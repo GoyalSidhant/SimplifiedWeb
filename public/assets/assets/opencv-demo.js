@@ -111,7 +111,7 @@ function processVideo() {
   else {
     console.log("no face")
     counter = counter + 1;
-    if (counter == 300) {
+    if (counter == 250) {
       snd.play();
       beep();
       beep();
